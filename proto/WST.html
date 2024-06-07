@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Dash</title>
+    <link rel="stylesheet" href="WST.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <a href="Homepage.html">
+                    <img src="img/logo-cat222.png" alt="Logo image">
+                  </a>
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Footer">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="main">
+
+            <div class="men_text">
+                <h1>Get Fresh<span>Food</span><br>in a Easy Way</h1>
+            </div>
+
+            <div class="main_image">
+                <img src="img/image1.png">
+            </div>
+
+        </div>
+
+        <p>
+            Whether you're a seasoned chef or a culinary novice, our easy-to-follow recipes, expert tips, 
+            and engaging content will inspire you to create delicious Korean dishes.  
+        </p>
+
+        <div class="main_btn">
+            <a href="">Check Recipes</a>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+    </section>
+
+
+        <!--About-->
+
+        <div class="about" id="About">
+            <div class="about_main">
+    
+                <div class="image">
+                    <img src="img/logo-cat222.png">
+                </div>
+    
+                <div class="about_text">
+                    <h1><span>About</span> the page</h1>
+                    <h3>Annyeong!</h3>
+                    <p>
+                        When we consider Korean cuisine at Dish Dash, our hearts skip a beat. For what reason? Because food is a trip through tradition and invention, an infinite variety of colors, and a work of art of flavors alongside to serving as an important source of their food.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+
+
+    <!--Menu-->
+
+    <div class="menu" id="Menu">
+        <h1><span>Menu</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="img/tteokbokki.jfif">
+                </div>
+
+
+                <div class="menu_info">
+                    <h2>Tteokbokki</h2>
+                    <p>
+                        Spicy stir-fried rice cakes, often served with fish cakes and a thick gochujang-based sauce, creating a popular street food snack in Korea.
+                    </p>
+
+                   
+                    <a href="Teokkboki.html" class="menu_btn">Check Recipes</a>
+                </div>
+
+            </div> 
+            
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="img/kimchi-jjigae-stew.webp">
+                </div>
+
+
+                <div class="menu_info">
+                    <h2>Kimchi-jjigae</h2> 
+                    <p>
+                        A beloved Korean stew made with kimchi, pork, tofu, and a flavorful anchovy stock, known for its hearty, spicy, and savory taste.                    
+                    </p>
+
+                   
+                    <a href="Kimchi Stew.html" class="menu_btn">Check Recipes</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="img/kimchi.jpg">
+                </div>
+
+
+                <div class="menu_info">
+                    <h2>Kimchi</h2>
+                    <p>
+                        A traditional Korean side dish made from fermented vegetables) seasoned with garlic, ginger, and red pepper flakes, resulting in a tangy and spicy flavor.
+                    </p>
+
+                   
+                    <a href="Kimchi.html" class="menu_btn">Check Recipes</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="img/bibimbap.jfif">
+                </div>
+
+
+                <div class="menu_info">
+                    <h2>Bibimbap</h2>
+                    <p>
+                        A Colorful Korean rice dish with veggies, marinated meat, and spicy gochujang sauce, often served in a sizzling stone bowl.
+                    </p>
+
+                   
+                    <a href="Bibimbap.html" class="menu_btn">Check Recipes</a>
+                </div>
+
+            </div> 
+
+            </div> 
+            
+        </div>
+
+        
+    <!--Intro-->
+
+    <div class="intro" id="Intro">
+        <div class="intro_main">
+
+            <div class="intro_text">
+                <h1><span>About</span> the page</h1>
+                <h3>Annyeong!</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ratione reiciendis officiis cum blanditiis veniam quae, libero ipsam amet laborum error, nulla similique ullam praesentium quas, earum consequuntur voluptatum voluptate. Nullam vel turpis eu neque viverra feugiat sit amet ac magna.
+                </p>
+                        <script>
+                var i = 0;
+                var images = [];
+                var time = 2000;
+
+                images[0] = "img/image1.png";
+                images[1] = "img/image2.png";
+                images[2] = "img/image3.png";
+                images[3] = "img/image4.png";
+                images[4] = "img/image5.png";
+
+
+
+                function changeImg() {
+                    document.slide.src = images[i];
+
+                    if (i < images.length - 1) {
+                        i++;
+                    } else {
+                        i = 0;
+                    }
+
+                    setTimeout(changeImg, time);
+                }
+
+                window.onload = changeImg;
+            </script>
+            <div class="Slideshow">
+                <div class="slide">
+                    <img name="slide" width= "630" height="570" margin-left="50px"  alt= "Slideshow" >
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Team-->
+
+    <div class="team">
+        <h1>Our<span>Team</span></h1>
+
+        <div class="team_box">
+            <div class="profile">
+                <img src="image/chef1.png">
+
+                <div class="info">
+                    <h2 class="name">Prescious Pajo</h2>
+                    <p class="bio">Web Developer</p>
+
+                    <div class="team_icon">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/chef2.png">
+
+                <div class="info">
+                    <h2 class="name">Hazel Kate Butlay</h2>
+                    <p class="bio">Web Developer</p>
+
+                    <div class="team_icon">                
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+            
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main" id="Footer">
+
+            <div class="footer_tag">
+                <h2>Quick Link</h2>
+                <p>Home</p>
+                <p>Recipes</p>
+                <p>About Us</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>+63 905 098 1370</p>
+                <p>+63 975 626 9604</p>
+                <p>presciouspajo19@gmail.com</p>
+                <p>butlay.hazelkate@gmail.com</p>
+            </div>
+            
+            <div class="footer_tag">
+                <h2>Follows</h2>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>            
+
+        </div>
+
+        <p class="end">Design by <span><i class="fa-solid fa-face-grin"></i> Dish Dash Web Developer Team.</span> </p>
+
+    </footer>
+
+</body>
+</html>
