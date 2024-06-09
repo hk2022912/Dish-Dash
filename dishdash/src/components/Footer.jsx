@@ -17,10 +17,9 @@ const Footer = () => {
 
         <div className="footer_tag">
           <h2>Contact</h2>
-          <p>+63 905 098 1370</p>
+          <p>+63 000 000 0000</p>
           <p>+63 975 626 9604</p>
-          <p>presciouspajo19@gmail.com</p>
-          <p>butlay.hazelkate@gmail.com</p>
+          <p>Dishdash@gmail.com</p>
         </div>
         <div className="footer_tag">
           <h2>Follows</h2>

@@ -7,7 +7,7 @@ const Header = () => {
     <section id="Home">
       <nav>
         <div className="logo">
-          <a href="Homepage.html">
+          <a href="#Home">
             <img src="img/logo-cat222.png" alt="Logo" />
           </a>
         </div>
