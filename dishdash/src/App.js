@@ -5,7 +5,7 @@ import Menu from './components/Menu';
 import Intro from './components/Intro';
 import Team from './components/Team';
 import Footer from './components/Footer';
-import './WST.css';
+import './css/WST.css';
 
 const App = () => {
   return (
