@@ -74,6 +74,10 @@ section nav .icon i:hover{
     color: #fac031;
 }
 
+section .svg-inline--fa {
+    margin-left: 25px;
+}
+
 section .main{
     display: flex;
     align-items: center;
@@ -200,6 +204,7 @@ section .main_btn:hover i{
 
 .menu{
     width: 100%;
+    height: 100vh;
     padding: 70px 0px;
 }
 
@@ -336,177 +341,6 @@ section .main_btn:hover i{
     transition: 0.3s;
 }
 
-/*Gallery*/
-
-.gallery{
-    width: 100%;
-    padding: 70px 0;
-}
-
-.gallery h1{
-    font-size: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gallery h1 span{
-    margin-left: 15px;
-    color: #fac031;
-    font-family: mv boli;
-}
-
-.gallery h1 span::after{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #fac031;
-    display: block;
-    position: relative;
-    bottom: 15px;
-}
-
-.gallery .gallary_image_box{
-    width: 95%;
-    margin: 10px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-
-.gallery .gallary_image_box .gallary_image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: black;
-}
-
-.gallery .gallary_image_box .gallary_image img{
-    width: 100%;
-    transition: .3s;
-}
-
-.gallery .gallary_image_box .gallary_image:hover img{
-    opacity: 0.4;
-}
-
-.gallery .gallary_image_box .gallary_image h3{
-    position: absolute;
-    font-size: 35px;
-    margin-bottom: 130px;
-    color: #fac031;
-    font-family: polo;
-    z-index: 5;
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.gallery .gallary_image_box .gallary_image:hover h3{
-    opacity: 1;
-}
-
-.gallery .gallary_image_box .gallary_image p{
-    position: absolute;
-    width: 400px;
-    margin-top: 30px;
-    text-align: center;
-    color: white;
-    line-height: 22px;
-    opacity: 0;
-    z-index: 5;
-    transition: 0.3s;
-}
-
-.gallery .gallary_image_box .gallary_image:hover p{
-    opacity: 1;
-}
-
-/*Order*/
-
-.order{
-    width: 100%;
-    height: 100vh;
-    padding: 70px 0;
-    background-image: url(image/bg2.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.order h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    font-size: 55px;
-}
-
-.order h1 span{
-    color: #fac031;
-    margin-right: 15px;
-    font-family: mv boli;
-}
-
-.order h1 span::after{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #fac031;
-    display: block;
-    position: relative;
-    bottom: 15px;
-}
-
-.order .order_main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.order .order_main .order_image img{
-    width: 600px;
-}
-
-.order .order_main form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0 10px;
-}
-
-.order .order_main form .input p{
-    line-height: 25px;
-}
-
-.order .order_main form .input{
-    margin: 5px;
-}
-
-.order .order_main form .input input{
-    width: 300px;
-    height: 35px;
-    padding: 0 10px;
-    border: 2px solid #cccccc;
-    background: #eeeeee;
-    outline: none;
-    border-radius: 3px;
-}
-
-.order .order_main form .input input:focus{
-    border: 2px solid #fac031;
-}
-
-.order .order_main form .order_btn{
-    padding: 10px 0;
-    background: #fac031;
-    color: white;
-    width: 40%;
-    text-align: center;
-    margin-top: 50px;
-    text-decoration: none;
-}
-
-
-
-
 /*Team*/
 
 .team{
@@ -549,7 +383,7 @@ section .main_btn:hover i{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 13%;
+    top: 8%;
 }
 
 .team .team_box .profile{
@@ -619,6 +453,10 @@ section .main_btn:hover i{
     color: #fac031;
 }
 
+.team .svg-inline--fa {
+    margin: 10px;
+}
+
 
 /*Intro*/
 
@@ -652,17 +490,17 @@ section .main_btn:hover i{
     position: relative;
     text-align: center;
     bottom: 50px;
-    top: 125px;
+    top: 35px;
 }
 
 .intro .intro_main .intro_text h3{
     font-size: 40px;
-    margin: 180px 0 50px 0;
+    margin: 70px 0 40px 0;
     text-align: center;
 }
 
 .intro .intro_main .intro_text p{
-    width: 650px;
+    width: 600px;
     text-align: justify;
     text-align: center;
     line-height: 35px;
@@ -675,6 +513,7 @@ section .main_btn:hover i{
     padding: 30px 0;
 
 }
+
 /*Footer*/
 
 footer{
@@ -703,9 +542,23 @@ footer .footer_main .footer_tag p{
     margin: 10px 0;
 }
 
+footer .footer_main .footer_tag a {
+    text-decoration: none;
+    color: #EA0B03; 
+}
+  
+.footer_tag a:hover {
+    text-decoration: underline;
+}
+  
+
 footer .footer_main .footer_tag i{
     margin: 0 5px;
     cursor: pointer;
+}
+
+footer .svg-inline--fa {
+    margin: 10px;
 }
 
 footer .footer_main .footer_tag i:hover{
@@ -722,6 +575,10 @@ footer .end{
 footer .end span{
     color: #E0163D;
     margin-left: 10px;
+}
+
+footer .end .svg-inline--fa {
+    margin: 0px;
 }
 
 ::-webkit-scrollbar{

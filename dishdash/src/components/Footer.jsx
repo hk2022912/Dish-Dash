@@ -9,10 +9,9 @@ const Footer = () => {
       <div className="footer_main" id="Footer"> 
         <div className="footer_tag">
           <h2>Quick Link</h2>
-          <p>Home</p>
-          <p>About</p>
-          <p>Menu</p>
-          <p>Contact</p>
+          <a href="#Home"><p>Home</p></a>
+          <a href="#About"><p>About</p></a>
+          <a href="#Menu"><p>Menu</p></a>
           </div>
 
         <div className="footer_tag">
@@ -23,9 +22,14 @@ const Footer = () => {
         </div>
         <div className="footer_tag">
           <h2>Follows</h2>
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
-          <a href="https://twitter.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+
+          <span><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+          </span>
+          <span><a href="https://twitter.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+          </span>
+          <span><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+          </span>
+          
         </div>
       </div>
       <p className="end">Design by <span><FontAwesomeIcon icon={faGrin} /> Dish Dash Web Developer Team.</span> </p>
