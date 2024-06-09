@@ -5,7 +5,7 @@ import { faGrin } from '@fortawesome/free-solid-svg-icons'; // Import faGrin fro
 
 const Footer = () => {
   return (
-    <footer>
+    <footer> 
       <div className="footer_main" id="Footer"> 
         <div className="footer_tag">
           <h2>Quick Link</h2>
