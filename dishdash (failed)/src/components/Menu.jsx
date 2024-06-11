@@ -7,7 +7,7 @@ const Menu = () => {
       <div className="menu_box">
         <div className="menu_card">
           <div className="menu_image">
-            <img src="img/tteokbokki.jfif" alt="Tteokbokki" />
+            <img src="img/tteokbokki.png" alt="Tteokbokki" />
           </div>
           <div className="menu_info">
             <h2>Tteokbokki</h2>

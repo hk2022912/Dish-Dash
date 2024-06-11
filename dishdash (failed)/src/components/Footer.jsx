@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faGrin } from '@fortawesome/free-solid-svg-icons'; // Import faGrin from the correct package
+import { faGrin } from '@fortawesome/free-solid-svg-icons'; 
 
 const Footer = () => {
   return (
@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="footer_tag">
           <h2>Quick Link</h2>
           <a href="#Home"><p>Home</p></a>
-          <a href="#About"><p>About</p></a>
           <a href="#Menu"><p>Menu</p></a>
+          <a href="#Intro"><p>More</p></a>
           </div>
 
         <div className="footer_tag">
@@ -21,7 +21,7 @@ const Footer = () => {
           <p>Dishdash@gmail.com</p>
         </div>
         <div className="footer_tag">
-          <h2>Follows</h2>
+          <h2>Follows</h2>  
 
           <span><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
           </span>

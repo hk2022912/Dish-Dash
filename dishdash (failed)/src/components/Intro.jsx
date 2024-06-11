@@ -32,7 +32,7 @@ const Intro = () => {
       <div className="intro_main">
         <div className="intro_text">
           <h1><span>Explore</span>Beyond Tradition!</h1>
-          <h3>신맛! Refreshing taste</h3>
+          <h3>신맛! Refreshing taste!</h3>
           <p>
           Join us on a gastronomic journey that celebrates the richness and diversity of Korean cuisine. Let your taste buds wander and your senses awaken as you uncover the vibrant tapestry of flavors that Korea has to offer!
           </p>
