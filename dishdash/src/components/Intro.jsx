@@ -31,10 +31,10 @@ const Intro = () => {
     <div className="intro" id="Intro">
       <div className="intro_main">
         <div className="intro_text">
-          <h1><span>About</span> the page</h1>
-          <h3>Annyeong!</h3>
+          <h1><span>Explore</span>Beyond Tradition!</h1>
+          <h3>신맛! Refreshing taste</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ratione reiciendis officiis cum blanditiis veniam quae, libero ipsam amet laborum error, nulla similique ullam praesentium quas, earum consequuntur voluptatum voluptate. Nullam vel turpis eu neque viverra feugiat sit amet ac magna.
+          Join us on a gastronomic journey that celebrates the richness and diversity of Korean cuisine. Let your taste buds wander and your senses awaken as you uncover the vibrant tapestry of flavors that Korea has to offer!
           </p>
         </div>
         <div className="Slideshow">

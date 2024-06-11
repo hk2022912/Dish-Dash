@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 
+
 section{
     width: 100%;
     height: 100vh;
@@ -238,6 +239,10 @@ section .main_btn:hover i{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
+}
+
+.menu_card {
+    margin-left: 15px;
 }
 
 .menu .menu_box .menu_card{
