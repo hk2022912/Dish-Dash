@@ -1,0 +1,74 @@
+
+
+@media screen and (max-width: 700px ) {
+	body {
+		margin-top: 20%;	
+		width: 500px;
+		margin: auto;
+	}
+	header nav {
+		text-align: right;
+		font-size: 20px;
+	}
+	.title{
+		text-align: center;
+		margin-top: 10%;
+		margin-left: 25%;
+		font-size: 45px;
+	}
+	.left img{
+		width: 100%;
+		height: 550px;
+		border: 8px solid white;
+		border-radius: 15px;
+		margin-top: 30%;
+	}
+	.content .Right{
+		margin: 10px;
+	}
+	.content {
+		margin-top: 20%;
+           	display: flex;
+	}
+	.left, .Right{
+		width: 100%;
+	}
+	.mobile{
+		display: inline-block;
+	}
+	header nav .main-menu{
+		display: block;
+		background-color:#DB9353;
+		position: absolute;
+		top: 60px;
+		left: 100%;
+		width: 100%;
+		height: 100vh;
+		transition: 0.3s all ease-in-out;
+	}
+	header nav label.mobile{
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 5px 10px;
+		margin: 12px 15px;
+	}
+	header nav label.mobile:hover{
+		cursor: pointer;
+	}
+	
+	header nav #mobile-menu{
+		display: none;
+	}
+
+	header nav #mobile-menu:checked + .main-menu{
+		left: 0;
+		transition: 0.3s all ease-in-out;
+	}
+	header nav .main-menu li{
+		display: block;
+		text-align: center;
+	}
+	header nav .main-menu li{
+		color: white;
+	}
+}
